@@ -106,8 +106,20 @@
           <div class="modal-body">
             <div
               class="d-flex flex-column justify-content-center align-items-center import-file"
+              @click="openFilePicker"
             >
-              <img src="@/assets/images/excel.png" alt="xlsx file" />
+              <input
+                type="file"
+                @change="handleFileUpload"
+                accept=".csv, .xlsx"
+                style="display: none"
+                ref="fileInput"
+              />
+              <img
+                src="@/assets/images/excel.png"
+                alt="xlsx file"
+                style="cursor: pointer"
+              />
               <label class="mt-4">Accepted Files (.CSV, XLSX)</label>
             </div>
           </div>
@@ -202,6 +214,14 @@ export default {
     },
     selectMonth(month) {
       this.selectedMonth = month;
+    },
+    openFilePicker() {
+      this.$refs.fileInput.click();
+    },
+    handleFileUpload(event) {
+      const file = event.target.files[0];
+      // Do something with the selected file
+      console.log(file);
     },
   },
 };
