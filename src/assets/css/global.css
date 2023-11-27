@@ -1,0 +1,417 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("@/assets/fonts/Poppins-Medium.ttf");
+}
+body {
+  font-family: "Poppins";
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #040d21;
+}
+
+.container {
+  max-width: 1480px;
+}
+
+#login {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#login .container #login-row #login-column #login-box {
+  background-color: #16263f;
+  border-radius: 20px;
+}
+
+.btn-login {
+  background-color: #ff6969;
+}
+
+.btn-login:hover {
+  background-color: #ff5656;
+}
+
+.form-group input {
+  background-color: #36415c;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.form-group input:focus {
+  background-color: #ff69691a;
+  border: #ff6096 1px solid;
+  outline: none !important;
+  box-shadow: none;
+  color: white;
+}
+
+.page-footer {
+  bottom: 0;
+}
+
+.dropdown-menu {
+  font-size: 16px;
+  padding: 0rem 0;
+  transform: translate3d(0px, 0px, 0px) !important;
+  border-radius: 9px;
+}
+
+button {
+  font-size: 16px;
+  padding: 8px 15px;
+  border-radius: 9px;
+}
+
+.primary-btn {
+  background-color: #ff6969;
+  color: white;
+  border: 0px;
+}
+
+.second-btn {
+  background-color: transparent;
+  color: #ff6969;
+  border: 1px solid #ff6969;
+}
+
+.icon img {
+  width: 20px;
+}
+
+.col-5 label {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+.position-relative i {
+  position: absolute;
+  color: #ff6969;
+  right: 5px;
+  top: 10px;
+}
+
+.setting-btn {
+  width: 100%;
+}
+
+.modal {
+  z-index: 2000;
+}
+
+.modal-content {
+  /* width: 70vw; */
+  background-color: #16263f;
+}
+
+.modal-width-m {
+  width: 30vw;
+}
+
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+}
+
+.input-search {
+  justify-content: space-between;
+}
+
+.input-search svg {
+  position: absolute;
+  width: 24px;
+  left: 7px;
+  left: 20px;
+  bottom: -12px;
+}
+
+.search-input {
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  padding: 8px 10px 8px 40px;
+  background-color: transparent;
+  border: 1px solid #546076;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.search-input:focus {
+  outline: none;
+  color: #ff6969;
+  border: 1px solid #ff6969;
+}
+
+.dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #546076;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: transparent;
+  color: #a4b4cb;
+  width: 100%;
+}
+
+.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  font-size: 16px;
+  padding: 0rem 0;
+  transform: translate3d(0px, 0px, 0px) !important;
+  border-radius: 9px;
+}
+
+.dropdown-item {
+  background-color: #36415c;
+  display: block;
+  width: 100%;
+  padding: 8px 15px;
+  color: white;
+}
+
+.dropdown-item:focus {
+  color: #ffffff;
+  background-color: #dc3545;
+  padding: 8px 15px;
+}
+
+.dropdown-item:hover {
+  color: #ffffff;
+  background-color: #4a5675;
+  padding: 8px 15px;
+}
+
+.dropdown-item-header {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  background-color: #ff6969 !important;
+  color: white;
+}
+
+.dropdown-item-header:hover {
+  background-color: #ff6969;
+}
+
+.dropdown-item-footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.dropdown {
+  min-width: 130px;
+}
+
+.dropdown ul {
+  width: 100%;
+  min-width: 130px;
+  border: 1px solid #a4b4cb;
+  border-radius: 10px !important;
+}
+
+.block-user {
+  color: #dc3545;
+}
+
+.unlock-user {
+  color: #2ec875;
+}
+
+.card {
+  background-color: #202939 !important;
+}
+
+.card h5 {
+  color: #969696;
+}
+
+.card p {
+  color: #ffffff;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 25px 20px;
+}
+
+.card-text {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.right-card {
+  height: 100%;
+}
+
+.invoice-title p {
+  font-size: 24px;
+}
+
+.header-title {
+  font-size: 32px;
+}
+
+.table thead tr th {
+  font-size: 16px;
+  padding: 1.5rem 0.5rem;
+  background-color: #16263f;
+  color: #ffffff;
+}
+
+.table tbody tr td {
+  font-size: 16px;
+  background-color: transparent;
+  color: #a4b4cb;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.table tbody tr td p {
+  margin: 0;
+}
+
+#login,
+#loading,
+#complete,
+#failure {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#login .logo,
+#loading .logo,
+#complete .logo,
+#failure .logo {
+  position: absolute;
+  top: 0;
+}
+
+.loading {
+  align-items: center;
+  font-size: 24px;
+}
+
+.setting-label {
+  color: white;
+}
+
+.setting-input {
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  padding: 8px 40px 8px 10px;
+  background-color: #36415c;
+  border: solid 1px #36415c;
+  /* border: 1px solid #A4B4CB; */
+  border-radius: 8px;
+  width: 100%;
+}
+
+.setting-input:focus {
+  outline: none;
+  color: #ff6969;
+  border: 1px solid #ff6969;
+}
+
+.modal-title {
+  color: white;
+  text-align: center;
+  font-size: 34px;
+}
+
+.modal-btn {
+  padding: 8px 40px;
+}
+
+.input-usd {
+  position: absolute;
+  color: #858181;
+  right: 25px;
+  bottom: 10px;
+}
+
+@media only screen and (max-width: 1190px) {
+  .input-search svg {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 805px) {
+  .input-search svg {
+    bottom: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .input-search svg {
+    bottom: -13px;
+  }
+}
+
+.pay-btn {
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+td svg {
+  fill: #dc3545;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.width-95 {
+  width: 90%;
+}
+.setting-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.modal-body {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  /* 1px solid #546076 */
+  border-color: #546076;
+  border-style: solid;
+  border-width: 0;
+}
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: transparent;
+}
+
+.import-file {
+  border: 1px dashed #a4b4cb;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.times {
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  color: white;
+  font-size: 18px;
+}

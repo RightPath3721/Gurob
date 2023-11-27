@@ -1,0 +1,45 @@
+
+
+.calendar {
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    background: #36415C;
+    padding: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .calendar .dates {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .calendar .dates button {
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    justify-self: center;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 0;
+  }
+  
+  .calendar .dates button.today {
+    box-shadow: inset 0px 0px 0px 2px #FF6969;
+  }
+  
+  .calendar .dates button:hover {
+    background: #4a5675;
+  }
+  
+  .calendar .dates button:focus {
+    background: #FF6969;
+    color: #fff;
+    font-weight: 600;
+  }
+  
